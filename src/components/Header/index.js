@@ -2,7 +2,7 @@ import styles from "./Header.module.css";
 
 function Header(){
     return(
-        <header  className={styles.header} >
+        <header className={styles.header} >
             <span>EtecFlix</span>
             <nav>
                 <a href="#">Home</a>
@@ -12,4 +12,4 @@ function Header(){
     );
 }
 
-export default Header
+export default Header;
