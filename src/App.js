@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header/>
-      <Banner/>
+      <Banner image="favoritos" />
       <Container>
         <h1>ETEC MCM NOVOOOOOOOO</h1>
         <p>Olá Mundo!</p>

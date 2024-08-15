@@ -1,8 +1,10 @@
 import styles from './Banner.module.css';
 
-function Banner(){
+function Banner({ image }){
     return(
-        <div className={styles.banner}>
+        <div 
+        className={styles.banner} 
+        style={{BackgroundImage: `url('/images/banner-${image}.png')`}}>
             
         </div>
     );
