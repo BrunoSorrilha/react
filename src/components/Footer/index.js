@@ -1,11 +1,11 @@
-import styles from './Footer.module.css';
+import styles from "./Footer.module.css";
 
 function Footer(){
     return(
-        <footer className={styles.footer}>
-            <h2>Desenvolvido por Anderson</h2>
-        </footer>
-    );
+      <footer className={styles.footer}>
+        <h2>Desenvolvido por Bruno Sorrilha</h2>
+      </footer>
+    )
 }
 
 export default Footer;
